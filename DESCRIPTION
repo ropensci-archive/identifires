@@ -2,7 +2,7 @@ Package: identifires
 Type: Package
 Title: 'identifiers.org' API Client
 Description: 'identifiers.org' API (<https://identifiers.org/restws>) client.
-Version: 0.0.2.9100
+Version: 0.0.2.9110
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "sckott@protonmail.com"))
 License: MIT + file LICENSE
