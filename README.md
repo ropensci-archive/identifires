@@ -1,5 +1,5 @@
 identifires
-=====
+===========
 
 
 
@@ -32,52 +32,33 @@ library("identifires")
 
 collections
 
-
 ```r
 idf_collections()
-#> # A tibble: 644 x 8
-#>    id           name   pattern  definition  prefix url   prefixed synonyms
-#>  * <chr>        <chr>  <chr>    <chr>       <chr>  <chr>    <int> <list>  
-#>  1 MIR:00000002 ChEBI  "^CHEBI… Chemical E… chebi  http…        1 <NULL>  
-#>  2 MIR:00000003 Ensem… "^((ENS… Ensembl is… ensem… http…        0 <NULL>  
-#>  3 MIR:00000004 Enzym… "^\\d+\… The Enzyme… ec-co… http…        0 <chr [3…
-#>  4 MIR:00000005 UniPr… "^([A-N… The UniPro… unipr… http…        0 <chr [6…
-#>  5 MIR:00000006 Taxon… "^\\d+$" The taxono… taxon… http…        0 <chr [3…
-#>  6 MIR:00000007 BioMo… "^((BIO… BioModels … biomo… http…        0 <chr [1…
-#>  7 MIR:00000008 MIRIA… "^MIR:0… MIRIAM Reg… miria… http…        0 <chr [2…
-#>  8 MIR:00000009 ICD    "^[A-Z]… The Intern… icd    http…        0 <NULL>  
-#>  9 MIR:00000010 IntAct "^EBI\\… IntAct pro… intact http…        0 <NULL>  
-#> 10 MIR:00000011 Inter… "^IPR\\… InterPro i… inter… http…        0 <NULL>  
-#> # ... with 634 more rows
+idf_collections(ids = "MIR:00000008")
+idf_collections(names = "pdb")
+idf_collections(providers = "pdb")
 ```
 
 resources
 
-
 ```r
 idf_resources()
+idf_resources(ids = "MIR:00100675")
 ```
 
 validate
 
-
 ```r
-idf_validate()
+idf_validate(ids = "MIR:00100675")
 ```
+
+## not made yet 
 
 metadata
 
+- `idf_metadata()`
+- `idf_prefixes()`
 
-```r
-idf_metadata()
-```
-
-prefixes
-
-
-```r
-idf_prefixes()
-```
 
 ## Meta
 

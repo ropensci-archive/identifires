@@ -37,33 +37,33 @@ library("identifires")
 
 collections
 
-```{r}
+```r
 idf_collections()
+idf_collections(ids = "MIR:00000008")
+idf_collections(names = "pdb")
+idf_collections(providers = "pdb")
 ```
 
 resources
 
-```{r eval=FALSE}
+```r
 idf_resources()
+idf_resources(ids = "MIR:00100675")
 ```
 
 validate
 
-```{r eval=FALSE}
-idf_validate()
+```r
+idf_validate(ids = "MIR:00100675")
 ```
+
+## not made yet 
 
 metadata
 
-```{r eval=FALSE}
-idf_metadata()
-```
+- `idf_metadata()`
+- `idf_prefixes()`
 
-prefixes
-
-```{r eval=FALSE}
-idf_prefixes()
-```
 
 ## Meta
 
