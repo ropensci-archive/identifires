@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Build Status](https://travis-ci.org/ropenscilabs/identifires.svg?branch=master)](https://travis-ci.org/ropenscilabs/identifires)
+[![Build Status](https://travis-ci.com/ropenscilabs/identifires.svg?branch=master)](https://travis-ci.com/ropenscilabs/identifires)
 [![codecov.io](https://codecov.io/github/ropenscilabs/identifires/coverage.svg?branch=master)](https://codecov.io/github/ropenscilabs/identifires?branch=master)
 [![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/identifires)](https://github.com/metacran/cranlogs.app)
 [![cran version](http://www.r-pkg.org/badges/version/identifires)](https://cran.r-project.org/package=identifires)
