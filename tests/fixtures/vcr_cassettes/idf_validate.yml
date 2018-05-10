@@ -1,0 +1,28 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://identifiers.org/rest/identifiers/validate/MIR:00100675
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: r-curl/3.2 crul/0.5.2 rOpenSci(identifires/0.0.2.9100)
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      server: Apache-Coyote/1.1
+      x-application-context: application:pg
+      content-type: application/json;charset=UTF-8
+      transfer-encoding: chunked
+      date: Thu, 10 May 2018 17:57:12 GMT
+    body:
+      encoding: UTF-8
+      string: '{"prefix":"MIR","identifier":"MIR:00100675","url":"http://identifiers.org/MIR:00100675"}'
+  recorded_at: 2018-05-10 17:57:12 GMT
+  recorded_with: vcr/0.1.0, webmockr/0.2.4.9110, crul/0.5.2

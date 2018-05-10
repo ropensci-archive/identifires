@@ -1,0 +1,73 @@
+identifires
+===========
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+[![Build Status](https://travis-ci.org/ropenscilabs/identifires.svg?branch=master)](https://travis-ci.org/ropenscilabs/identifires)
+[![codecov.io](https://codecov.io/github/ropenscilabs/identifires/coverage.svg?branch=master)](https://codecov.io/github/ropenscilabs/identifires?branch=master)
+[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/identifires)](https://github.com/metacran/cranlogs.app)
+[![cran version](http://www.r-pkg.org/badges/version/identifires)](https://cran.r-project.org/package=identifires)
+
+identifiers.org API Client
+
+## identifiers API Docs
+
+See <https://identifiers.org/restws>
+
+## Install
+
+Development version
+
+```{r eval=FALSE}
+devtools::install_github("ropenscilabs/identifires")
+```
+
+```{r}
+library("identifires")
+```
+
+## Examples
+
+collections
+
+```{r}
+idf_collections()
+```
+
+resources
+
+```{r eval=FALSE}
+idf_resources()
+```
+
+validate
+
+```{r eval=FALSE}
+idf_validate()
+```
+
+metadata
+
+```{r eval=FALSE}
+idf_metadata()
+```
+
+prefixes
+
+```{r eval=FALSE}
+idf_prefixes()
+```
+
+## Meta
+
+* Please [report any issues or bugs](https://github.com/ropenscilabs/identifires/issues).
+* License: MIT
+* Get citation information for `identifires` in R doing `citation(package = 'identifires')`
+* Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
