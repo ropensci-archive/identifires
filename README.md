@@ -1,68 +1,6 @@
 identifires
 ===========
 
-
-
-[![Build Status](https://travis-ci.com/ropenscilabs/identifires.svg?branch=master)](https://travis-ci.com/ropenscilabs/identifires)
-[![codecov.io](https://codecov.io/github/ropenscilabs/identifires/coverage.svg?branch=master)](https://codecov.io/github/ropenscilabs/identifires?branch=master)
-[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/identifires)](https://github.com/metacran/cranlogs.app)
-[![cran version](http://www.r-pkg.org/badges/version/identifires)](https://cran.r-project.org/package=identifires)
+[![Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
 
 identifiers.org API Client
-
-## identifiers API Docs
-
-See <https://identifiers.org/restws>
-
-## Install
-
-Development version
-
-
-```r
-devtools::install_github("ropenscilabs/identifires")
-```
-
-
-```r
-library("identifires")
-```
-
-## Examples
-
-collections
-
-```r
-idf_collections()
-idf_collections(ids = "MIR:00000008")
-idf_collections(names = "pdb")
-idf_collections(providers = "pdb")
-```
-
-resources
-
-```r
-idf_resources()
-idf_resources(ids = "MIR:00100675")
-```
-
-validate
-
-```r
-idf_validate(ids = "MIR:00100675")
-```
-
-## not made yet 
-
-metadata
-
-- `idf_metadata()`
-- `idf_prefixes()`
-
-
-## Meta
-
-* Please [report any issues or bugs](https://github.com/ropenscilabs/identifires/issues).
-* License: MIT
-* Get citation information for `identifires` in R doing `citation(package = 'identifires')`
-* Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
